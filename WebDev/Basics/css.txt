@@ -1,0 +1,47 @@
+Setup : first link it to the html file. And then write the boiler plate code for css.
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+Element Selection : 
+ex: h1{
+    color: red;
+}
+
+##Table of content :
+
+1. width & height, color & bgcolour : Color = text ka color, bgcolor = bg ka color,
+2. Font-family,
+3. font-size, 
+
+## Units: A measurement of something
+- px, %, vw, vh, em, rem
+- max-width and max-height
+
+4. line-height,
+5. text-align,
+6. padding,
+7. Margin,
+8. border,
+9. Display,
+10. Position,
+11. Background,
+12. flex & Grid,
+
+13. pseudo-elements
+14. pseudo-classes
+
+Animation
+Media-Queries
+
+
+
+box=div (Jaha bhi ek sae jyada elem dekhe waha div hai) and rectangle too is a div,
