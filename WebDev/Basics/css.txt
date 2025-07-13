@@ -19,12 +19,35 @@ ex: h1{
 ##Table of content :
 
 1. width & height, color & bgcolour : Color = text ka color, bgcolor = bg ka color,
-2. Font-family,
+2. Font-family (There are two types of fonts : Sans-Serif and Serif.
+Sans-Serif : It is the one which does not have the sharp edges. example : Montserrat
+Serif: It is the one where the sharp edges are present. Example : Playfair display. 
+) ,
 3. font-size, 
 
 ## Units: A measurement of something
-- px, %, vw, vh, em, rem
-- max-width and max-height
+
+-> Our desktops or laptops scrren can have dpi(Depth per inch) like in a certain space of screen how many pixels can be present at a time &
+
+- px (A complete bad experience for the user because it gives a scroll i.e. it's not responsive. A few times can be used but we have to be responsible because every screen has it's own DPI's values or quality.) , 
+% (Total like jitna total hai utna part & it changes according to the screen can be called responsiveness) , 
+vw (Viewport width : When we say suppose for example 10vw it will take the 10th value part from the 100% value of the width screen. ) , 
+vh (Viewport height : it will take the screen value.), 
+em (It depends on that element font-size & if the value has been given to the parent then it will get automatically applied to the children also.) , 
+rem (Also known as Root Empherial unit : It depends upon the root of HTML tag. For Example : 
+html{
+    font-size : 16px;
+}
+box{
+    width:3rem;
+    height:3rem;
+    bgcolor: red;
+}
+)
+
+## % always take values from the parent & Vw and Vh always takes the value from the screen.
+
+- min/max-width and max/min-height : It is a like a hook that will not maximize or minimize after that certain values.
 
 4. line-height,
 5. text-align,

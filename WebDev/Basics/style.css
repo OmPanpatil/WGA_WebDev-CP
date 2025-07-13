@@ -20,7 +20,7 @@ html , body{
 .box{
     width: 25vw;
     height: 45vh;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     position: absolute;
     left: 50%;
     top: 50%;
@@ -33,13 +33,47 @@ html , body{
     height: 100%;
     object-position: center;
     object-fit: cover;
+    /* object-fit: fill; */
     /* border-radius: 1rem; */
     /* border: 2px solid ; */
 }
 
-/* .box2{
-    width: 1535px;
+
+.box2{
+    width: 1536px; 
     height: 695px;
-    /* height: 1000px; */
-    /* background-color: lightblue; */
-/* } */ 
+    background-color: lightsalmon;
+}
+
+.box2 .innerboxchild{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.box3{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightpink;
+}
+
+.box3 .textes{
+    width: 40%;
+    height: 40%;
+    position: relative;
+}
+
+.box3 .textes .text-box{
+    width: 15vw;
+    height: 26vh;
+    background-color: #080608;
+    position: absolute;
+    left: 15%;
+    top: 7%;
+    border-radius: 4vw;
+}
+
+.box3 .textes .text-box {
+    color: #FBF4EC;
+    /* position: ; */
+}
