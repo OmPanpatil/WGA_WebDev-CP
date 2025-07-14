@@ -64,16 +64,83 @@ html , body{
 }
 
 .box3 .textes .text-box{
-    width: 15vw;
-    height: 26vh;
+    width: 20vw;
+    height: 35vh;
     background-color: #080608;
     position: absolute;
-    left: 15%;
-    top: 7%;
-    border-radius: 4vw;
+    left: 40%;
+    top: 12%;
+    border-radius: 3vw 3vw 0vw 3vw;
 }
 
-.box3 .textes .text-box {
+.box3 .textes .text-box .under-text{
     color: #FBF4EC;
     /* position: ; */
+    padding: 1.1em 1.1em 1.1em 1.1em;
+}
+
+.box3 .textes .text-box .under-text p{
+    font-size: 1em;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+
+
+.deco{
+    width: 1vw;
+    height: calc(100vh - 45vh);
+    background-color: #7C4128;
+    position: absolute;
+    left: 36.2%;
+    top: 20%;
+    border-radius: 2vw;
+}
+
+/* .deco2{
+    width: 20vw;
+    height: 40vh;
+    background-color: lightcoral;
+    padding: 2vw;
+} */
+
+.deco2 p{
+    display: inline-block;
+    font-size: 10vw;
+    font-weight: 550;
+    color: #F7F0E4;
+    position: absolute;
+    left: 60%;
+    rotate: 40deg;
+    top: 60%;
+}
+
+.deco3{
+    position: absolute;
+    align-items: center;
+    left: 20%;
+    top: 42%;
+    rotate: -40deg;
+
+}
+
+.deco3 .sphere1{
+    width: 8vw;
+    height: 16vh;
+    border-radius: 50%;
+    background-color: #FDF5F0;
+    background:linear-gradient(to right, #5A4843, #D1C0AD, #D3BEAB, #785D4B, #EED3B3, #FCF5EE ) ;
+}
+
+.deco3 .sphere2{
+    width: 4vw;
+    height: 8vh;
+    border-radius: 50%;
+    background-color: #FDF5F0;
+}
+
+.deco3 .sphere3{
+    width: 2vw;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: #FDF5F0;
 }

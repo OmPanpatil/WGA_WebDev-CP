@@ -55,8 +55,28 @@ box{
 7. Margin,
 8. border,
 9. Display,
+
+##Display : It has two properties as Block and Inline. And the third one is InlineBlock.
+Block element : It says that all the total space or width belongs to it. And one one will come to it's row. And we increaase width and height.
+Inline element : It says that it can allow space near to it.And it will not allow u to increase width and height.
+Here, comes in the picture as :
+Inline Block element : It can allow to seat in the row and also to increase height and width.
+
+
+
 10. Position,
+Position : Absolute and relative
+Absolute : to levitate in that layer according to their level like 1 will be not much high as 2 and 2 will be not much high as 3 and so on..
+
+
+
 11. Background,
+##Background : Through url, follows background-position and backgsize
+
+ANd likewise in image we follows object position, object-size.
+
+Linear Gradient : direction to  (left,right, bottom-left, top)
+
 12. flex & Grid,
 
 13. pseudo-elements
