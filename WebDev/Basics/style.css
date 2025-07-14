@@ -39,7 +39,7 @@ html , body{
 }
 
 
-.box2{
+/* .box2{
     width: 1536px; 
     height: 695px;
     background-color: lightsalmon;
@@ -49,7 +49,7 @@ html , body{
     width: 100%;
     height: 100%;
     background-color: lightblue;
-}
+} */
 
 .box3{
     width: 100vw;
@@ -143,4 +143,13 @@ html , body{
     height: 5vh;
     border-radius: 50%;
     background-color: #FDF5F0;
+}
+
+
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(8, 156, 205);
 }

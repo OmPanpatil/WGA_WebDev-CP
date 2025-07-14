@@ -79,6 +79,8 @@ Linear Gradient : direction to  (left,right, bottom-left, top)
 
 12. flex & Grid,
 
+##Flex : 
+
 13. pseudo-elements
 14. pseudo-classes
 
