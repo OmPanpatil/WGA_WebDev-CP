@@ -152,4 +152,20 @@ section{
     width: 100vw;
     height: 100vh;
     background-color: rgb(8, 156, 205);
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    padding: 3vw;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+section .dabba{
+    width: 15vw;
+    height: 15vh;
+    background-color: lightcoral;
+    border: 2px solid white;
+    border-radius: 0.4vw;
 }

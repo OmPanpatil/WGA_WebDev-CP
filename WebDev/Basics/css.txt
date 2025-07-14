@@ -81,12 +81,23 @@ Linear Gradient : direction to  (left,right, bottom-left, top)
 
 ##Flex : 
 
-13. pseudo-elements
+13. pseudo-elements 
+    ::before
+    ::after
+    ::first-Line
+    ::first-letter
+    ::selection
+
+
 14. pseudo-classes
+    :hover
+    :active
+    :focus
+    :nth-child()
 
 Animation
 Media-Queries
 
-
+.elem#elem$*3
 
 box=div (Jaha bhi ek sae jyada elem dekhe waha div hai) and rectangle too is a div,
