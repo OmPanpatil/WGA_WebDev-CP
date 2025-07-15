@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .con1{
+    height: 80vh;
+    width: 50vw;
+    background-image: url(./Futuristic\ Humanoid\ Figure.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
