@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 html , body{
     height: 100%;
     width: 100%;
+    font-family: poppins, sans-serif;
 }
 
 .box{
@@ -14,13 +16,90 @@ html , body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 3vw;
+    /* justify-content: space-between; */
+    /* background-color: lightcoral; */
 }
 
 .box .con1{
     height: 80vh;
-    width: 50vw;
+    /* height: calc(100vh - 50vh); */
+    width: 60vw;
     background-image: url(./Futuristic\ Humanoid\ Figure.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* border-radius: 50vw; */
+}
+
+.box .con2{
+    /* height: calc(100vh - 80vh); */
+    height: 80vh;
+    width: 25vw;
+    /* background-color: red; */
+    border-radius: 50vw;
+    /* position: relative; */
+}
+
+.box .con2 .subcon2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 2.5vh; */
+    padding: 1.5vw;
+    gap: 3vh;
+}
+
+.box .con2 .subcon2 h1{
+    /* font-size: 2vw; */
+    color: #EFD673;
+    text-align: center;
+}
+
+/* .box .con2 .subcon2 h1::before{
+    content: ' ';
+    width: fit-content;
+    height: 2vh;
+    background-color: #335697;
+} */
+
+.box .con2 .subcon2 p{
+    /* font-size: 2vw; */
+    text-align: center;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    font-weight: 550;
+    width: 100%;
+}
+
+.box .con2 .subcon2 .imagecon{
+    width: 85%;
+    height: 40%;
+}
+
+.box .con2 .subcon2 .imagecon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: end;
+    
+}
+
+.box .con2 .subcon2 button{
+    height: 6vh;
+    width: 8vw;
+    border: none;
+    border-radius: 50vh;
+    color: #E9F1E8;
+    background-color: #3A5597;
+    font-size: 1.1vw;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
 }
