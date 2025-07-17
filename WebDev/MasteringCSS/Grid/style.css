@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+main .elem{
+    height: 10vh;
+    width: 5vw;
+    background-color: lightcoral;
+    border: 2px solid white;
+} */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+main .elem{
+    height: 200px;
+    width: 200px;
+    background-color: lightsalmon;
+    border: 2px solid white;
+}
