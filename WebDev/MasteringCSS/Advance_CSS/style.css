@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    /* padding: 2vw; */
+    width: 10vw;
+    height: 20vh;
+    background-color: lightblue;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 5s;
+    /* margin-bottom: 5vw; */
+}
+
+@keyframes anime{
+    from{
+        left: 0;
+    }
+    to{
+        left: 90%;
+    }
+}
+
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 60%;
+    /* animation: monkeyfunny 5s ease 1s infinite both both; */
+    animation-name: monkeyfunny;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+@keyframes monkeyfunny{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 50%;
+        transform: rotate(360deg);
+    }
+    90%{
+        left: 90%;
+        transform: rotate(720deg);
+    }
+}
