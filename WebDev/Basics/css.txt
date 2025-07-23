@@ -101,3 +101,7 @@ Media-Queries
 .elem#elem$*3
 
 box=div (Jaha bhi ek sae jyada elem dekhe waha div hai) and rectangle too is a div,
+
+
+mix-blend-mode for the color
+backdrop-filter: blur(unit)  for the blurry

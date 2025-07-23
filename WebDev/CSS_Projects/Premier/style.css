@@ -81,13 +81,14 @@ html , body{
 #nav h1{
     /* background-color: blue; */
     height: 100%;
-    width: 23%;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Monument;
     position: relative;
     font-size: 2.5vw;
+    letter-spacing: -0.15vw;
 }
 
 #nav h1::after{
@@ -110,12 +111,13 @@ html , body{
     /* font-family: "Helvetica Now", sans-serif; */
     /* "Helvetica Now", sans-serif */
     color: rgb(73, 72, 72);
+    letter-spacing: 0;
 }
 
 #nav h2{
     /* background-color: blue; */
     height: 100%;
-    width: 21%;
+    width: 22%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,9 +128,95 @@ html , body{
 
 #nav h2:nth-last-child(1){
     /* border: none; */
-    width: 10%;
+    width: 11%;
     /* background-color: red; */
 }
 
+/* #nav h2:nth-last-child(4){
+    width: 20%;
+} */
+
+#nav h2:hover{
+    /* background-color: burlywood; */
+    color: darkblue;
+}
 
 
+#center{
+    height: 84%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 1.6vw 4.5vw 1vw 5.5vw;
+    position: relative;
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+}
+
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* background-color: red; */
+    padding: 2.5vw;
+    /* background-color: #e5f1e335; */
+    /* backdrop-filter: blur(0.1vw); */
+}
+
+#over1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 1.5vw;
+}
+
+#over1 h1{
+    font-family: monument;
+    font-size: 3.2vw;
+    /* font-weight: 200; */
+    /* mix-blend-mode: color; */
+    /* mix-blend-mode: difference; */
+}
+
+#over1 h2{
+    font-size: 1.3vw;
+    padding: 1.8vw;
+    /* background-color: blue; */
+    border-radius: 50%;
+    border: 1px solid #fff;
+    border-bottom: 3.2px solid #fff;
+}
+
+#over2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    border-top: 2px solid #fff;
+    padding: 0.2vw 0;
+    /* background-color: blue; */
+}
+
+#over2 h4{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+#over2 img{
+    rotate: 180deg;
+    height: 5vw;
+    /* background-color: blue; */
+    padding: 0.2vw;
+}
