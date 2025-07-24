@@ -19,7 +19,19 @@
 
     6. Window : It is a bucket of tools that browser offers to use in JS language.
     
-    7. Types,
+    7. Types : Types means data types.
+        ->like will u have dinner ? Y or N
+        - String : 'Harsh';
+        - Integer : 12;
+        - float : 12.42;
+        - boolean : True/False;
+        - character : a,b,c,...;
+
+        Type is of two types : 
+            a. Primitive DataTypes -->12,12.4,Harsh, True or false, a, null, undefined.
+            b. Reference DataTypes --> [], {},() these are called as reference DataTypes.
+
+
     8. Conditionals
     9. Loops
     10. FUnctions
