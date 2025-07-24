@@ -220,3 +220,100 @@ html , body{
     /* background-color: blue; */
     padding: 0.2vw;
 }
+
+#scroll{
+    height: 40vh;
+    width: 100%;
+    /* background-color: #fff; */
+    /* padding: 1vw; */
+    white-space: nowrap;
+    /* overflow-x: auto; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#container{
+    height: 100%;
+    width: 155%;
+    /* width: 100%; */
+    /* background-color: blue; */
+    display: inline-block;
+    padding: 1.3vw 0.5vw 0.7vw 1vw;
+    /* animation: anime 2s timing-function delay iteration-count direction fill-mode; */
+    animation-name: anime;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); */
+}
+
+#scroll img{
+    /* display: none; */
+    height: 100%;
+    border-radius: 50%;
+    width: 8.95%;
+    /* width: 9%; */
+    object-fit: cover;
+    object-position: top;
+    /* margin: 1vw; */
+    padding: 0.5vw;
+    /* background-color: #fff; */
+}
+
+@keyframes anime{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+#alphabet{
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7vw;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#alphabet h5{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    border-bottom: 2px solid #00000000;
+    letter-spacing: 0.2vw;
+}
+
+#alphabet h5:hover{
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+
+#alphabet h6{
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+    padding: 0.5vw 0.8vw;
+    border-radius: 50%;
+    border: 2px solid #00000000;
+    /* background-color: yellow; */
+    transition: all ease 0.4s;
+}
+
+#alphabet h6:hover{
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
