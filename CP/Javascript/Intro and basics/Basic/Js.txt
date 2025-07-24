@@ -7,10 +7,18 @@
     2. Inbuilt Features => Console, alert, prompt,
     -> Browser 
     
-    3. Variables,
-    4. Constants
-    5. Compiler & Interpreters
-    6. Window,
+    3. Variables :
+    var a = 3;
+
+    4. Constants :
+        const c = '5;
+        const d = 'apple';
+
+    5. Compiler & Interpreters :
+
+
+    6. Window : It is a bucket of tools that browser offers to use in JS language.
+    
     7. Types,
     8. Conditionals
     9. Loops
