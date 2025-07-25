@@ -34,7 +34,22 @@
 
     8. Conditionals
     9. Loops
-    10. FUnctions
+    10. FUnctions :
+        --> Functions are reusable, first class functions in js as they can work as a Variables
+        -->Js is divided into two parts as a.ES5 and b.ES6
+        - ES5 is divided into three parts :
+            1. Simple Function Statement
+            2. Function Expression
+            3. Anonymous functions
+        - ES6 :
+            ->1. Fat Arrow Functions 
+                    - a. Basic Fat Arrow Functions
+                    - b. Fat Arrow functions with one parameter
+                    - c. Fat arrow function with implicit returns.
+
+    
+    ##return :
+
     11. Arrays
     12. Objects
     13. Prototyps
