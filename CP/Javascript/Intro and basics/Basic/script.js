@@ -22,3 +22,13 @@ var nam = prompt("Naam batao")
 console.log(nam);
 
 
+// let arr = [1,2,3,4,5];
+// arr.forEach(function(val){
+//     let sum=0;
+//     for(let i=0; i<=arr.length; i++){
+//         let sum =val + i;
+//         console.log(sum);
+//     }
+// });
+
+

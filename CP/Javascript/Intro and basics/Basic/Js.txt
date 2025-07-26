@@ -48,15 +48,34 @@
                     - c. Fat arrow function with implicit returns.
 
     
-    ##return :
+    ##return : every functions returns something and it is undefined if return is not given
+
+            ex:
+                var aa = ()=>{
+                    return 12;
+                }
+                aa();
+                o/p: 12
+
+    ##undefined, not defined, null :
+
 
     11. Arrays
     12. Objects
     13. Prototyps
     14. Prototypal inheritance
-    15. Asynchronous JS
+    15. Synchronous and Asynchronous JS
     16. ES6 Climax
     17. Questions solving
+    ## Interview prep : 
+    This, call, apply, bind    
+    13. Prototyps
+    14. Prototypal inheritance
+    Closures,
+    Event delegations,
+    Higher- Order Functions,
+    Error Handlings (try .... catch blocks) ,
+    Custom Events
 
 - Made by Branden EIg in only 20 days and to keep up with the issue community came to known as ECMASCRIPT.
 - Which handles the bug solving, Updation features and over all development.
