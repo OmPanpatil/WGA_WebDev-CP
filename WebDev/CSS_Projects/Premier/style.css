@@ -322,6 +322,7 @@ html , body{
     /* gap: 2vw; */
     justify-content: space-between;
     padding: 2vw 4.5vw;
+    position: relative;
 }
 
 #page2-part1{
