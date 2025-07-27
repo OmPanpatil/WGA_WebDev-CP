@@ -69,18 +69,22 @@
     17. Questions solving
     ## Interview prep : 
     This, call, apply, bind    ✅
-    13. Prototyps
+    13. Prototyps ✅
     14. Prototypal inheritance
-    Closures,
-    Event delegations,
-    Higher- Order Functions,
-    Error Handlings (try .... catch blocks) ,
-    Custom Events
+    Closures, ✅
+    Event delegations, ✅
+    Higher- Order Functions, ✅
+    Error Handlings (try .... catch blocks) , ✅
+    Custom Events ✅
 
 - Made by Branden EIg in only 20 days and to keep up with the issue community came to known as ECMASCRIPT.
 - Which handles the bug solving, Updation features and over all development.
 - JS launched two Versions as ES5 and ES6.
 Known as ES5 and before, And ES6 and after. Example : var in ES5 and let in ES6.
 And in chrome browser both the features has been installed.
+
+
+## JS THE DOM :
+
 
 

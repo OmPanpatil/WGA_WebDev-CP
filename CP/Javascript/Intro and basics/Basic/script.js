@@ -92,3 +92,30 @@ function aabbcc(a1,b1,c1){
 }
 aabbcc.apply(this,[1,2,3]);
 
+console.log("Prototypal Inheritance : ");
+
+function Makehuman(nnamee,aage){
+    this.nnamee = nnamee;
+    this.aage = aage;
+}
+
+Makehuman.prototype.College = function(){
+    console.log(this.nnamee);
+    console.log(this.aage);
+    
+}
+
+const users1 = new Makehuman("Sahil",30);
+const user2 = new Makehuman("Harshita", 22);
+
+
+let parent = document.querySelector("#parent");
+parent.addEventListener("click", function(details){
+    if(details.target.id === "play"){
+        console.log("Play the music!");
+    }
+    else if(details.target.id ==='pause'){
+        console.log("Pause the music");
+        
+    }
+})
