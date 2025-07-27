@@ -31,4 +31,64 @@ console.log(nam);
 //     }
 // });
 
+console.log(this);
+
+let obj = {
+    namee: function(){
+        console.log(this);
+        
+    },
+    age: 22
+};
+
+obj.namee();
+
+let obj2 = {
+    namess: function(){
+        console.log(this);
+        function childfnc(){
+            console.log(this);
+        }
+        childfnc();
+    },
+    age:24
+};
+
+obj2.namess();
+
+
+let obj3 = {
+    naame: function(){
+        console.log(this.age);
+        let child = ()=>{
+            console.log(this);
+        }
+        child();
+    },
+    age: 25
+}
+
+obj3.naame();
+
+document.querySelector('button')
+.addEventListener("click",function(){
+    console.log(this);
+    
+});
+
+let obj4 = {namm: 'om'};
+
+function abcdd(aa,bb,cc){
+    console.log(this, aa,bb,cc);
+}
+
+abcdd.call(obj4,1,2,3);
+// console.log(answer);
+
+let obj5 = 12;
+
+function aabbcc(a1,b1,c1){
+    console.log(this, a1,b1,c1);
+}
+aabbcc.apply(this,[1,2,3]);
 
