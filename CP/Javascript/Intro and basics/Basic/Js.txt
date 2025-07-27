@@ -63,12 +63,12 @@
     11. Arrays
     12. Objects
     13. Prototyps
-    14. Prototypal inheritance
+    14. Prototypal inheritance 
     15. Synchronous and Asynchronous JS
     16. ES6 Climax
     17. Questions solving
     ## Interview prep : 
-    This, call, apply, bind    
+    This, call, apply, bind    ✅
     13. Prototyps
     14. Prototypal inheritance
     Closures,
