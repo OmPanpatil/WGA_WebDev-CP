@@ -16,22 +16,51 @@ main{
     position: relative;
 }
 
-#page1{
+
+.page1{
+    /* width: 100%; */
+    /* height: 100%; */
+    width: 100%;
+    height: 70%;
+    position: relative;
+    display: flex;
+    /* background-color: red; */
+}
+
+.underp1{
+    width: 50%;
+    height: 65%;
+}
+
+.page1 .ims1{
+    height: 100%;
+    width: 50%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.underims1{
+    font-size: 3vw;
+}
+
+.page1 .ims2{
+    height: 100%;
+    width: 50%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.underp2{
+    width: 50%;
+    height: 65%;
+}
+
+.underims2{
+    font-size: 3vw;
+}
+
+.page2{
     width: 100%;
     height: 100%;
-    position: relative;
-}
-
-#page1 .ims1{
-    height: 50%;
-    width: 50%;
-    object-position: center;
-    object-fit: cover;
-}
-
-#page1 .ims2{
-    height: 50%;
-    width: 50%;
-    object-position: center;
-    object-fit: cover;
+    background-color: red;
 }

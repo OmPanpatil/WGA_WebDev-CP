@@ -94,8 +94,23 @@ DOM : Document Object Model (To change the webpage accordingly with the js. As t
     2. Modifying Elements :  ✅
         innerHtml, textContent
 
-    3. Manipulating styles and classes :
+    3. Manipulating styles and classes :  ✅
         - style
         - classList
+        - remove
+
+    4. Creating and deleting Element : ✅
+        - createElement()
+        - apprendChild()
+        - removeChild()
+
+
+    5. Event Handling :
+            - addEventListener()
+
+
+    6. Event Object
+
+    
 
 
