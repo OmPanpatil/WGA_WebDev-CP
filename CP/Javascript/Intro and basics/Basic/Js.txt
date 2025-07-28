@@ -86,5 +86,16 @@ And in chrome browser both the features has been installed.
 
 ## JS THE DOM :
 
+DOM : Document Object Model (To change the webpage accordingly with the js. As the html doesn't have a feature which can change it's properties in one click.)
+
+    1. Accessing Elements : ✅
+        document.queryselector(' ')
+
+    2. Modifying Elements :  ✅
+        innerHtml, textContent
+
+    3. Manipulating styles and classes :
+        - style
+        - classList
 
 

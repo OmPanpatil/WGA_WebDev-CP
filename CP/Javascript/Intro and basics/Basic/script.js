@@ -119,3 +119,9 @@ parent.addEventListener("click", function(details){
         
     }
 })
+
+
+// DOM
+
+console.log("DOM");
+
