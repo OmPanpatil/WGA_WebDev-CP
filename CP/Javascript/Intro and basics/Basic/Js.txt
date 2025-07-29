@@ -105,11 +105,21 @@ DOM : Document Object Model (To change the webpage accordingly with the js. As t
         - removeChild()
 
 
-    5. Event Handling :
-            - addEventListener()
+    5. Event Handling :   ✅
+            - addEventListener() 
 
 
-    6. Event Object
+    6. Event Object  ✅
+
+
+
+## Questions Solving :
+
+1. Create an HTML Page with a button. When the button is clicked, change the text of the paragraph element. ✅
+
+2. Create a page with two images and a button. When the button is clicked, swap the source attribute of the images.
+
+ 
 
     
 
