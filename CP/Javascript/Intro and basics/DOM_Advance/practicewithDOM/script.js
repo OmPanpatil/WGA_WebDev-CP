@@ -90,7 +90,50 @@ btnn.addEventListener("click",function(){
 
     img1.src =src2;
     img2.src =src1;
-})
+});
+
+
+
+// 3. Create a form with input field and a submit button.Use javascript to validate the form and display an error message if the input is invalid.
+
+
+
+// let form = document.createElement('form');
+// form.style.padding = "2vw";
+// form.style.backgroundColor = "lightblue";
+// document.querySelector("body").appendChild(form);
+
+// label
+
+// const inputlabel = document.createElement('label');
+// inputlabel.textContent = "Full name : ";
+// inputlabel.style.fontSize = "2vw";
+// inputlabel.style.fontFamily = "gilroy";
+// document.querySelector("body").appendChild(inputlabel);
+
+// input
+
+// const input = document.createElement('input');
+
+
+let form = document.querySelector('form');
+let input1 = document.querySelector('.innp1'); 
+let input2 = document.querySelector('.innp2'); 
+let headsss3 = document.querySelector('.hs3');
+form.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    console.log(input1.value);
+    console.log(input2.value);
+    if(input1.value === '' || input2.value === ''){
+        headsss3.textContent = "This is an error. Some field are empty.";
+        headsss3.style.color = "brown";
+    }
+    else{
+        headsss3.textContent = "Submitted!";
+    }
+});
+
+
 
 
 
