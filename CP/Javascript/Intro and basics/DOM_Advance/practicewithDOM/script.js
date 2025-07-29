@@ -116,22 +116,46 @@ btnn.addEventListener("click",function(){
 // const input = document.createElement('input');
 
 
-let form = document.querySelector('form');
-let input1 = document.querySelector('.innp1'); 
-let input2 = document.querySelector('.innp2'); 
-let headsss3 = document.querySelector('.hs3');
-form.addEventListener("submit", function(ev){
-    ev.preventDefault();
-    console.log(input1.value);
-    console.log(input2.value);
-    if(input1.value === '' || input2.value === ''){
-        headsss3.textContent = "This is an error. Some field are empty.";
-        headsss3.style.color = "brown";
+// let form = document.querySelector('form');
+// let input1 = document.querySelector('.innp1'); 
+// let input2 = document.querySelector('.innp2'); 
+// let headsss3 = document.querySelector('.hs3');
+// form.addEventListener("submit", function(ev){
+//     ev.preventDefault();
+//     console.log(input1.value);
+//     console.log(input2.value);
+//     if(input1.value === '' || input2.value === ''){
+//         headsss3.textContent = "This is an error. Some field are empty.";
+//         headsss3.style.color = "brown";
+//     }
+//     else{
+//         headsss3.textContent = "Submitted!";
+//     }
+// });
+
+
+let forms = document.querySelector('form');
+let inputs = document.querySelectorAll('input[type = "text"]');
+let headsss3 = document.querySelector('h3');
+
+
+forms.addEventListener("submit",function(eve){
+    eve.preventDefault();
+    // For nodelist --> unit1 and unit2 it is 2 units. so, and it is array so we can treat it as per the 0 indexing. Then, we can make use of for loop the forEach makes a bit complicated.
+
+    for(let i=0; i<inputs.length; i++){
+        if(inputs[i].value.trim() === ''){
+            headsss3.textContent = "Error, some entries are still blank.";
+            headsss3.style.color = "lightcoral";
+            break;
+        }
     }
-    else{
-        headsss3.textContent = "Submitted!";
-    }
+
 });
+
+
+// 4. Create an unordered list. Allow users to add and remove list items dynamically using buttons.
+
 
 
 
