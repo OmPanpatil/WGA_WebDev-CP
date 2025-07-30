@@ -121,7 +121,9 @@ DOM : Document Object Model (To change the webpage accordingly with the js. As t
 
 3. Create a form with input field and a submit button.Use javascript to validate the form and display an error message if the input is invalid.  ✅
 
-4. Create an unordered list. Allow users to add and remove list items dynamically using buttons.
+4. Create an unordered list. Allow users to add and remove list items dynamically using buttons. ✅
+
+
 
  
 

@@ -156,7 +156,47 @@ forms.addEventListener("submit",function(eve){
 
 // 4. Create an unordered list. Allow users to add and remove list items dynamically using buttons.
 
+let addbtn = document.createElement('button');
+addbtn.textContent = "Add Elements";
+addbtn.style.padding = "0.8vw 0.5vw";
+addbtn.style.margin = "2vw";
+document.querySelector("body").appendChild(addbtn);
 
+let removebtn = document.createElement('button');
+removebtn.textContent = "Remove the Elements";
+removebtn.style.padding = "0.8vw 0.5vw";
+// removebtn.style.margin = "2vw";
+document.querySelector("body").appendChild(removebtn);
+
+let input = document.createElement('input');
+input.placeholder = "Create or delete the elements!"
+input.textContent = "Input : ";
+input.style.padding = "1vw 0.5vw"
+document.querySelector("body").appendChild(input);
+
+// let ul = document.createElement('ul');
+// document.querySelector("body").appendChild(ul);
+
+let ul = document.querySelector('ul');
+// let li = document.createElement('li');
+// document.querySelector("body").appendChild(li);
+let li;
+
+
+addbtn.addEventListener("click", function(){
+    if(input.value.trim() === ''){}
+    else{
+        let li = document.createElement('li');
+        li.textContent = input.value;
+        ul.appendChild(li);
+        input.value = "";
+    }
+});
+
+
+removebtn.addEventListener("click",function(){
+    ul.removeChild(li);
+})
 
 
 
