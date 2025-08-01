@@ -57,6 +57,30 @@
                 aa();
                 o/p: 12
 
+    ## Rest parameter : 
+        function abs(a,b,c,...){
+            log("Heyy")
+        }
+    ## Hoisting : the declaration will move to the high as var a;
+        Ex : Console.log(a);
+             var a = 10;  ---> var a, a=10;
+
+             Output Value will be undefined
+
+    ## IIFE : Immediate Invoked Function Expression.
+
+
+    ## HOFS : When the function returns a function and accept the function in it's parameter as a value from the argument.
+
+    ## Callback Functions :
+
+    ## Temporal Dead Zone :
+
+    ## First Class Functions : The function can be treated as value.
+    ## Pure Function :
+    ## Impure Function  :
+    ## Scoping : global, local,...
+
     ##undefined, not defined, null :
 
 
