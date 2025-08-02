@@ -67,26 +67,90 @@
 
              Output Value will be undefined
 
-    ## IIFE : Immediate Invoked Function Expression.
+    ## IIFE : Immediately Invoked Function Expression.
+        --> It will wrapped under the small brackets () and then it run immediately by calling the function as ();
+        ->      (function abcd(){
+                    Console.log("Heyy);
+                }) ();
+
+       --> It keeps the data or variables private does not expose globally
+
+    
 
 
     ## HOFS : When the function returns a function and accept the function in it's parameter as a value from the argument.
 
     ## Callback Functions :
+        - Kissi function mae jou function pass hota hai call karte waqt ussey call back funcion kehtehai
+        - Agar ek function mein parmeter sae function pass kiya jou pass kiya wou hai callback function aur jismein pass kiya wou hai HOFS.
+
+            function abcd(val){
+                let b = val + 1;
+            }
+            abcd(function(){
+                let val = 8;
+            })
 
     ## Temporal Dead Zone :
 
     ## First Class Functions : The function can be treated as value.
-    ## Pure Function :
-    ## Impure Function  :
+    ## Pure Function : 
+        - Ek aisa function without external side effect
+            function add(a,b){
+                return a+b;  // no external modification
+            }
+            log(add(5,3))  //3+5=8
+    
+    ## Impure Function  : Aek aisa function jo ki change karee external variables yes with the modification of external effect.
+    let total = 3;
+    function totototal(val){
+        total += val;
+    }
+    totototal(3);
+    Console.log(total);
+
     ## Scoping : global, local,...
+        -> If a variable is directly written in a code not under anything it is Global Scope.
+        -> Inside a function or brackets. It is local variables. And we cannot access them directly anywhere.
+
 
     ##undefined, not defined, null :
+        ->  Undefined : It is a value
+        -> not defined : error
+        -> null : value
 
 
-    11. Arrays
-    12. Objects
-    13. Prototyps
+    11. Arrays :
+        -> More than similar values of one or more can be keep under a [] together. 
+        -> Array is a data structure that can stores multiple values at once.
+        -> For mare than one value to be store.
+        -> Access the memory of array : let arr = [1,2,3,4,5]; => arr[2]=> o/p: 3 Since Indexing from zero.
+        -> Methods of writting the array as :
+            let arr = [1,2,3,4];
+            let arr2 = new Array();  //for new blank array
+            arr[4]=12;
+        -> We can also stores multiple type of data types in arrays.
+
+    12. Objects :
+        -> Individual data details 
+        -> To hold the key value pairs.
+        -> let obj = {
+            property:value,
+            property:value,
+            .
+            .
+            .
+        }
+        -> Jabh bhi aapko aek sae jyada values ko "ek hi element ke baare mein store karna ho."
+        -> When u want to store the info of one entity.
+        -> How to create an object :
+            let obj = {
+                property:value
+            }
+            let obj2 = new Object();
+        -> How to access an object : objname.property();
+
+    13. Prototypes
     14. Prototypal inheritance 
     15. Synchronous and Asynchronous JS
     16. ES6 Climax

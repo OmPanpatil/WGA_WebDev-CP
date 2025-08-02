@@ -158,6 +158,49 @@ fnname([1,2,3,4,5,6,7,8,9]);  //here, values are arguments
             console.log(fafwir());
 
 
+// IIFE :  Immediately Invoked Function Expressions
 
+(function abcd(){
+    console.log("heyy");
+    
+})();
+
+let HyeeshredEffect = (function hyeeshred(){
+    let iife = 3;
+
+    return{
+        handstandeffect: function(val){
+            // console.log("Handstand Effect");
+            console.log(val);
             
+        },
+        Mouseoverhandeffect: function(details){
+            // console.log(details.target);
+            console.log("Mouseover Hand Effect");
             
+        },
+    };
+}) ();
+
+HyeeshredEffect.handstandeffect("Handstand Effect");
+HyeeshredEffect.Mouseoverhandeffect();
+
+
+// function cbf(cval){
+//     let acans = cval + 6;
+//     console.log(acans);
+    
+// }
+// cbf(function(){
+//     let cval = 7;
+// });
+            
+let arrr = [1,3,2,4,5]; 
+arrr[5]=6;
+console.log(arrr);
+
+let arrr2 = new Array(40);
+
+for(let i = 0; i<=arrr2.length; i++){
+    arrr2[i] = i;    //[0,1,2,3,4,5,....]
+}
