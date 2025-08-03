@@ -119,6 +119,25 @@
         -> not defined : error
         -> null : value
 
+    
+    ## Map, Filter, Reduce :
+        Ⓜ️ Map : (Ek new array banta hai jabh bhi hum use karte hai .map ka)
+                - Jabh bhi aek array ko aap loop karte ho aur ek naaye array mein aapko elements put karne ho toh aap map use kargogae.
+                - Map aek naya array banata hai and us array mein harbaar element leke atta hai jou map ke andar sae return hoga.
+                - Return is important to be used
+                -> Map loop karta hai and har baar returned value ko ek naaye array mein push kar detta hai.
+                -> Map dekhte hi new array banav man mae.
+                -> Naaye array mein returned value daalo.
+
+        🔍 Filter : (Ek naaya array banta hai jabh bhi hum use karte hai .filter ka)
+                    -> .filter use kiya aek naaya array manmae banna lo.
+                    -> return karta hai true or false.
+                    -> Naaye array mein true returned value daalo.
+
+        ®️ Reduced : ()
+                    -> Ek array sae koi aek value banao
+
+
 
     11. Arrays :
         -> More than similar values of one or more can be keep under a [] together. 
@@ -228,4 +247,14 @@ DOM : Document Object Model (To change the webpage accordingly with the js. As t
 7. Convert "50" (string) into a number using three different method ✅
 8. Check if javascript contains "script" without using .includes(). ✅
 9. Create an array of 5 numbers and log the sum using .reduce(). ✅
-10. Explain the difference between undefined, null, NaN.
+10. Explain the difference between undefined, null, NaN. ✅
+## Loops :
+11. Write a for loop to print numbers from 10 to 1 in reverse ✅
+12. Use a while loop to print multiples of 3 from 3 to 30. ✅
+13. Write a program to calculate the sum of numbers from 1 to 100 using a loop ✅
+14. Create a nested loop to print a star pattern. 
+15. Use a for...of loop to iterate over the string "JavaScript". ✅
+
+## Arrays : By using in-built method for now 😄
+
+16. Remove Duplicate values from an array 

@@ -285,7 +285,12 @@ console.log(strr.indexOf("script") !== -1);
 // 9. Create an array of 5 numbers and log the sum using .reduce().
 
 let fnn = [1,2,3,4,5];
-console.log(fnn.reduce((acc, numm) => acc+numm,0));
+// console.log(fnn.reduce((acc, numm) => acc+numm,0));
+let fnnans = fnn.reduce(function(acc,val){
+    return acc+val;
+},0);
+console.log(fnnans);
+
 
 // 10. Explain the difference between undefined, null, NaN.
 
@@ -299,3 +304,90 @@ console.log(fnn.reduce((acc, numm) => acc+numm,0));
 console.log("String"+8);
 console.log("String"-8);
 
+let marr = [1,2,3,4,5];
+let mans = marr.map(function(val){
+    // let i = 0;
+    // i++;
+    // return console.log(marr[i]=i, );
+    // return 
+    //     for(let i=0; i<=marr.length;i++){
+    //         marr[i]=i;
+    //         console.log(i);
+    //     }    
+    // return{
+    //     marr[i] = i;
+    //     i++;
+    //     console.log(marr);
+    // }    
+    // return marr[i];
+    return 1;
+    // marr.map(function(value){
+        // console.log(value);
+        
+    // })
+
+});
+
+marr.forEach(function(val){
+    console.log(val);
+        
+});
+
+let fmans = marr.filter(function(values){
+    // return true;
+    // return false;
+    // return values === 2;
+    return values>3;
+
+});
+console.log(fmans);
+
+
+// 11. Write a for loop to print numbers from 10 to 1 in reverse 
+
+for(let i=10; i>0; i--){
+    console.log(i);
+}
+
+// 12. Use a while loop to print multiples of 3 from 3 to 30.
+
+// let jj=3;
+// let j=3;
+// while(j<=30){
+    
+//     j++;
+// }
+
+let j = 3;
+while(j<=30){
+    console.log(j);
+    j+=3;
+}
+
+// 13. Write a program to calculate the sum of numbers from 1 to 100 using a loop
+
+let sum = 0;
+for(let i =1; i<=100; i++){
+    sum = sum+i;
+    // console.log(i);
+    // console.log(sum);  To not repeat it again 
+}
+console.log(sum);
+
+
+
+// 15. Use a for...of loop to iterate over the string "JavaScript".
+
+let strss = "JavaScript";
+for(let i of strss){
+    console.log(i);
+}
+
+// 16. Remove Duplicate values from an array 
+// By In-Built Method -->
+
+let darr = [1,1,3,3,5,5,6,6,7,7];
+console.log(darr);
+
+let darr2 = [...new Set(darr)];
+console.log(darr2);
