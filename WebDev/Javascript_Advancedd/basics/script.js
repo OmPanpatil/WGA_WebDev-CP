@@ -201,6 +201,101 @@ console.log(arrr);
 
 let arrr2 = new Array(40);
 
-for(let i = 0; i<=arrr2.length; i++){
+for(let i = 0; i<=30; i++){
     arrr2[i] = i;    //[0,1,2,3,4,5,....]
 }
+
+
+// 1. log "Hello, world" to the console in different ways
+
+console.log("Hello, world!");
+console.error("Hello, world");
+console.warn("Hello, world");
+console.info("Hello, world!");
+console.table({name: "om", age: 22});
+
+// 2. Perform 35*2-(10/2)+7 and log the result
+
+let a = 35*2-(10/2)+7;
+console.log(a);
+
+// 3. Log the data types of "123",123, true and null using typeof
+
+console.log(typeof("123"));
+console.log(typeof(123));
+console.log(typeof(true));
+console.log(typeof(null));
+
+
+// 4. Write a program that swaps the values of two variables 
+
+let aa = 7;
+let bb = 8;
+let c;
+
+// First method with third variable
+// c=aa;
+// aa = bb;
+// bb = c;
+// console.log(aa, bb, c);
+
+// [a,b] = [b,a];
+
+// Second method :
+
+aa = aa + bb;
+bb = aa - bb;
+aa = aa - bb;
+console.log(aa, bb);
+
+// 5. Use console.group() to organize the logs into a group. 
+
+// console.group("Todays work!");
+console.groupCollapsed("Todays work!");
+console.log("DSA");
+console.log("WebDev");
+console.groupEnd();
+
+// 6. Declare a const object, modify its properties and log the updated object. 
+
+// const cd = 9;
+const oo = {
+    name: "Swaz",
+    age:18
+};
+Object.freeze(oo);  //to freeze as the const does not allows to change the values so we freeze that in anycase it should not change the const value
+oo.age = 22;
+console.log(oo);
+
+// 7. Convert "50" (string) into a number using three different method 
+
+console.log(Number("50"));
+console.log(parseInt("50"));
+console.log(parseFloat("50"));
+console.log(+"50");
+
+// 8. Check if javascript contains "script" without using .includes(). 
+
+let strr = "Javascript";
+// strr.includes("script");
+
+strr.indexOf("script");
+console.log(strr.indexOf("script") !== -1);
+
+// 9. Create an array of 5 numbers and log the sum using .reduce().
+
+let fnn = [1,2,3,4,5];
+console.log(fnn.reduce((acc, numm) => acc+numm,0));
+
+// 10. Explain the difference between undefined, null, NaN.
+
+// Undefined : Jabh variable banaoge value naa do toh jou value by default milegi variable ko wou undefined hoggi
+// let a;  --> Declaration but not initialized
+
+// Null : Empty value
+
+// NaN : Mathematical Invalid calculations will get u nan.
+// COncatenation when we add the string with number it will always gives concatenation as a string.
+console.log("String"+8);
+console.log("String"-8);
+
