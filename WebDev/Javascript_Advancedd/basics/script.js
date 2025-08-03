@@ -420,3 +420,21 @@ mfe.forEach(function(vale){
     obje[vale] === undefined ? (obje[vale] = 1) : obje[vale]++;
 });
 console.log(obje);
+
+// 20. Create a function that takes another function as an argument and calls it after 3 seconds (HOF + Callback).
+
+// function HOF(val){
+//     console.log("Ur time is " + vv);
+// }
+
+// HOF(function(){
+//     let vv = 3;
+// },3);
+
+function callfnc(call){
+    setTimeout(call,3000);
+}
+callfnc(function(){
+    console.log("Heyy");
+});
+

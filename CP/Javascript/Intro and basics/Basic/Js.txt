@@ -262,4 +262,8 @@ DOM : Document Object Model (To change the webpage accordingly with the js. As t
 Uniqueness, sorting array in dexcending Order[5,4,3,2,1] by b-a & ascending order as: a-b, Indexing from 1st arr[1]
 
 18. Reverse an array without using .reverse(). ✅
-19. Find the most frequent element in an array. 
+19. Find the most frequent element in an array. ✅
+
+## JavaScript Advanced HOFs, Callbacks, and Closures :
+
+20. Create a function that takes another function as an argument and calls it after 3 seconds (HOF + Callback). ✅
