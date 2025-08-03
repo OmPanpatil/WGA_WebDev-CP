@@ -401,4 +401,22 @@ let dans = [...new Set(drr)].sort(function(a,b){
 })
 console.log(dans[1]);
 
+// 18. Reverse an array without using .reverse().
 
+let rrr = [1,2,3,4,5,6,7,8,9,98,3142];
+let rrr2 = [];
+for(let i = rrr.length-1; i>=0; i--){
+    rrr2.push(rrr[i]);
+    // Not applicable in dsa as it uses spaces
+}
+
+// 19. Find the most frequent element in an array. 
+
+let mfe = [1,2,3,4,5];
+let obje = {};
+
+mfe.forEach(function(vale){
+    // condition? yes : no
+    obje[vale] === undefined ? (obje[vale] = 1) : obje[vale]++;
+});
+console.log(obje);

@@ -258,5 +258,8 @@ DOM : Document Object Model (To change the webpage accordingly with the js. As t
 ## Arrays : By using in-built method for now 😄
 
 16. Remove Duplicate values from an array ✅
-17. Find the second largest number in an array. 
+17. Find the second largest number in an array. ✅
 Uniqueness, sorting array in dexcending Order[5,4,3,2,1] by b-a & ascending order as: a-b, Indexing from 1st arr[1]
+
+18. Reverse an array without using .reverse(). ✅
+19. Find the most frequent element in an array. 
