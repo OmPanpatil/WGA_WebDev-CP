@@ -391,3 +391,14 @@ console.log(darr);
 
 let darr2 = [...new Set(darr)];
 console.log(darr2);
+
+
+// 17. Find the second largest number in an array. 
+
+let drr = [1,1,2,3,2,3,4,5,4,5,6,6,8,8,90,80];
+let dans = [...new Set(drr)].sort(function(a,b){
+    return b-a;
+})
+console.log(dans[1]);
+
+
