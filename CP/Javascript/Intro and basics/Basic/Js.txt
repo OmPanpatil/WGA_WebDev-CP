@@ -267,3 +267,19 @@ Uniqueness, sorting array in dexcending Order[5,4,3,2,1] by b-a & ascending orde
 ## JavaScript Advanced HOFs, Callbacks, and Closures :
 
 20. Create a function that takes another function as an argument and calls it after 3 seconds (HOF + Callback). ✅
+
+21. Implement ur own version of .map() as a higher-order function ✅
+
+//ek function banao jou ki accept karre array and accept karre ki kya chalana hai har function ki value par
+
+22. Write a function that uses closures to create a counter. ✅
+
+23. Implement a function that limits how many times another function can be called.(Closure + HOF). ✅
+
+24. Create a function that takes a callback and executes it after every `n` seconds indefinitely ✅
+
+25. Implement a function that returns a function with a preset greetings.(Closures) ✅
+
+26. Implement a function that takes a callback and only executes it once.(HOF + closures) ✅
+
+27. Implement  a function that throttles another function (HOF + Closure) ✅

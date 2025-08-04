@@ -438,3 +438,137 @@ callfnc(function(){
     console.log("Heyy");
 });
 
+
+let mrr = [1,2,3,4,5];
+let mmans = mrr.map(function(val){
+    return val+2;
+});
+
+
+
+let arrey = [1,2,3,4,5];
+
+function aaa(ar, fn){
+    let newarrey = [];
+    for(let i=0; i<arrey.length; i++){
+        newarrey.push(fn(arrey[i]));
+    }
+    return newarrey;
+}
+let aans = aaa(arrey, function(val){
+    return val+2;
+});
+console.log(aans);
+
+
+
+// 22. Write a function that uses closures to create a counter. 
+
+
+function counter(){
+    let count = 0;
+
+    return function(){
+        count++;
+        console.log(count);
+        
+    };
+}
+let makecount = counter();
+makecount();
+makecount();
+makecount();
+makecount();
+
+// 23. Implement a function that limits how many times another function can be called.(Closure + HOF)
+
+function limiting(fnnn, limits){
+    let totaclcall = 0;
+    return function(){
+        if(totaclcall<limits){
+            totaclcall++;
+            fnnn();
+        }
+        else{
+            alert("Buy our premium membership😄");
+        }
+    }
+}
+let limiter = limiting(function(){
+    console.log("packet reached!");
+    
+},3);
+limiter();
+limiter();
+limiter();
+// limiter();
+
+
+
+// 24. Create a function that takes a callback and executes it after every `n` seconds indefinitely
+
+function cbfc(fnccall, time){
+    setInterval(fnccall, time);
+}
+// let cbfcans = cbfc(function(){
+//     console.log("Heyy! wassup?");
+    
+// },2000)
+
+// cbfcans();
+
+// 25. Implement a function that returns a function with a preset greetings.(Closures)
+
+function greetings(greeter){
+
+    return function(name){
+        console.log(`${greeter} ${name}`);
+        
+    }
+}
+let greetname = greetings("Hola!");
+greetname("Om");
+
+// 26. Implement a function that takes a callback and only executes it once.(HOF + closures)
+
+function coe(fnval){
+    let totalcb = 0;
+
+    return function(){
+        if(!totalcb){
+            totalcb = 1;
+            fnval();
+        }
+        else{
+            alert("Already executed once.");
+            
+        }
+    }
+}
+let coeans = coe(function(){
+    console.log("heyy it will be execute only one time!");
+    
+});
+coeans();
+coeans();
+
+
+// 27. Implement  a function that throttles another function (HOF + Closure)
+
+function throttles(fnt, delay){
+    let lastthrot = 0;
+    return function(){
+        let current = Date.now();
+        if(current-lastthrot >= delay){
+            lastthrot = current;
+            fnt();
+        }
+    }
+}
+
+let throtans = throttles(function(){
+    console.log("Will run in 2 seconds");
+    
+},2000);
+
+throtans();
