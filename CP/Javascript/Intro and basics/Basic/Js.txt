@@ -287,3 +287,67 @@ Uniqueness, sorting array in dexcending Order[5,4,3,2,1] by b-a & ascending orde
 
 
 📌D.S.A (DATA STRUCTURE AND ALGORITHM) :
+
+String + String = String (Concatenation)
+let a = "Hello";
+let b ="word";
+console.log(typeof(a+b));  //o/p: String
+
+string + string = string (Concatenation)
+String + int = String(Concatenation)
+Int + Int = Int (Arithmetic)
+
+Int - String = Int //ex: 1 - "1" = 0   (Type Cohersion)
+
+Increment and Decrement operator.
+
+S.2 : 
+
+Math Functions :
+
+    - Math.round()
+        => It is the mix concept of both the ceil and floor.
+        => Works as 0.5> the number will behaves as the ceil
+        => Works as 0.4< the number will behaves as the floor.
+
+    - Math.ceil()
+        => To make the number or decimals to the upper level like 10.1 it will get it to the 11 number.
+
+    - Math.floor()
+        => To make the numner or decimals to the lower level like 10.1 it will get it to the lower number 10.
+
+    - Math.trunc()  //removes the decimals
+        => Removes all the decimal parts
+
+    -  Math.pow()
+        => It take two power.
+        => number and power
+        => (5,2) --> 5^2
+
+    - Math.sqrt()
+        =>  GIves us square root of a number.
+        => FOr ex: 36 - 6 & 40 -> 6.324555
+
+    - Math.cbrt()
+        => Cube root
+
+
+    - Math.abs()
+        => Will behaves as absolutes.
+        => It will convert the negative number into the positive value.
+        => positive values remains the same.
+
+    - Math.max()
+        => It will return the maximum value
+
+    - Math.min()
+        => It will return the minimum value
+
+    - Math.random()
+        => It will give the random value from the 0 to 1 values.
+
+    - toFixed()
+        => Shifting of the decimals
+
+
+Q. Compound interest 
