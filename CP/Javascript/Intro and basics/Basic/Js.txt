@@ -350,4 +350,5 @@ Math Functions :
         => Shifting of the decimals
 
 
-Q. Compound interest 
+Q. Compound interest ✅
+
