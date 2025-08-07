@@ -36,3 +36,23 @@ torches.style.height = '5vh';
 torches.style.width = '5vw';
 torches.style.backgroundColor = 'lightcoral';
 // torches.style.position = 'absolute';
+
+
+const items = ['A', 'B', 'C', 'D', 'E'];
+
+
+const container = document.createElement('div');
+container.id = 'container';
+document.querySelector("body").appendChild(container);
+console.log(container);
+
+
+items.forEach(item => {
+    const box = document.createElement('div');
+    box.className = 'box';
+    box.textContent = item;
+    container.appendChild(box);
+});
+
+
+
