@@ -1,0 +1,81 @@
+color 
+    h1{
+        color:red
+    }
+
+BackgroundColor: 
+    color = text ka color
+    background-color = background ka color.
+
+Units :
+    Px: 1px = 1px on the screen (screen different from the pix by DPI and PPI) & can be replaced by VW or VH as the pixels changes as per the screen of the users.
+    % : Jitna total hai usmae ka hissa, Percentage humaesha parent sae value letta hai.
+    vw, vh : Scrren sae value lettae hai
+    em : em depend karta hai uss elements kae font-size par, aur ye agar parent ko dete hai to children par bhi apply hota hai. 
+    Matlab kuch aisa : COnsider kariye ek element hai jiske pass 16px font-size hai to 1em ki value 16px hogi aur agar font-size change kiya to uske response mein em ki value bhi badegi
+    rem : Root empherial tag
+
+Font-family :
+    no edges : Sans-Serif, Edges : Serif
+font-size : Font size 
+    - Give the units in vw, em or rem
+line-height ✅
+text-align ✅
+padding ✅
+margin ✅
+border ✅
+display :
+    -> There are two type:
+        (a)Block : It allows to increase width and height and does not allow anyone to come in it's row
+        (b) Inline : It allows anyone to have row with it but does not increase width and height
+        (c) Inline-Block : It can increase width and height and also allows anyone to right and left or beside it
+
+position :
+    absolute: It levitates 
+    relative : The absolute one will be under the relative
+
+background : url();
+    background-positon, size
+    lineargradients(to right, color1, color2, ....)
+    and also clip path and all that things to structuring like polygons
+
+flex :
+    -> To make use of the flex we apply it on parent
+    -> And two axis are active X and Y.
+    -> X : Main-axis and Y: Cross-axis
+             ||               ||
+        Justify-Content      align-items
+
+
+Har element kae pass aek possibility hotti hai ki wou element chahe toh inactive two after and before naam ki properties ko activate karsakhta hai.
+
+pseudo-elements :
+            Content:''; //content writing is important to active after and before
+    ::before
+    ::after
+    ::First-Letter
+    ::FIrst-line
+    ::Selection
+
+pseudo-classes :
+    :hover
+    :active
+    :focus
+    :nth-child(n)
+
+
+Grid : column increase in size by horizontally and rows increases in size by vertically as per the rows as 10% 20% 20% so here row will be first row as 10%
+    -> display: grid;
+    -> grid-template-column:
+    -> grid-template-rows:
+
+    for the inner-cells:  align-items => y and justify-items => x
+    for the full cells : align-content => y and 
+
+animation
+Media Queries
+     Max-width and max-height, min-width and min-height
+
+
+
+box=div (jaha bhi ek sae jyada elements dikhe waha div aur jaha bhi rectangle dikhe waha div hai. Div ko width and height dijiye css mae)
