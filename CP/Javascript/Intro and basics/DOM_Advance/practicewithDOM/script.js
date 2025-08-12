@@ -201,20 +201,22 @@ removebtn.addEventListener("click",function(){
 
 // 5. Build a countdown timer that starts when a button is clicked and updates the display in real time
 
-let head4 = document.querySelector('h4');
-let strtbtn = document.querySelector('button');
-let stopbtn = document.querySelector('button');
+// let headss1 = document.querySelector('h1');
+// let strtbtn = document.querySelector('button');
+// let stopbtn = document.querySelector('button');
 
-let int;
-strtbtn.addEventListener("click",function(){
-    let count = 0;
-    int = setInterval(function(){
-        head4.textContent = count;
-        count++;
-    }, 1000);
-})
+// let int;
+// strtbtn.addEventListener("click",function(){
+//     let count = 0;
+//     int = setInterval(function(){
+//         headss1.textContent = count;
+//         count++;
+//     }, 1000);
+// })
 
 // Setinterval(function(){}, timer)
-stopbtn.addEventListener("click",function(){
-    clearInterval(int);
-})
+// stopbtn.addEventListener("click",function(){
+//     clearInterval(int);
+// })
+
+
