@@ -1,0 +1,8 @@
+GSAP : GreenSock Animation Platform
+
+Smooth scrolling : locomotive JS
+
+gsap.to("name of the element", {object(key:value)})   //to the destination final
+gsap.from("name of the element", {object(key:value)})   //to the source initial
+
+Stagger can be used instead of train or timeline when u don't want to select every individual element
