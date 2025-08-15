@@ -6,3 +6,17 @@ gsap.to("name of the element", {object(key:value)})   //to the destination final
 gsap.from("name of the element", {object(key:value)})   //to the source initial
 
 Stagger can be used instead of train or timeline when u don't want to select every individual element
+
+    -> ScrollTigger :
+        - Write in camelcase (Tt)
+        - scrollTigger : ""   //Normal life
+        - scrollTigger : { object }   //Mentos Zindagi
+        - trigger to whom,
+        - scroller on what
+        - markers (for indications)
+        - start and end positions 
+        - scrub for smoothness from 0 to 5
+
+
+    -> Pin :
+        - ALways use the parent element as a trigger    

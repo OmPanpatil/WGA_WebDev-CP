@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#page1 #imag1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(204, 178, 143);
+    /* position: relative; */
+}
+
+/* #page2 #imag2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} */
+
+#page2 #imag3{
+    height: 100%;
+    width: 20%;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(237, 182, 111);
+}
