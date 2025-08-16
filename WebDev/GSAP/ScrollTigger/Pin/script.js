@@ -1,4 +1,4 @@
-gsap.to("page2 #imag3", {
+gsap.to("#page2 #imag3", {
     // scale:0,
     // duartion:3,
     // rotate: 360,
@@ -17,6 +17,9 @@ gsap.to("page2 #imag3", {
         scroller: "body",
         markers: true,
         start: "top 0%",
-        end: "top -100%"
+        end: "top -100%",
+        scrub:2,
+        pin:true
+        
     }
 })

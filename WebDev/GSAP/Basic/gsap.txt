@@ -19,4 +19,7 @@ Stagger can be used instead of train or timeline when u don't want to select eve
 
 
     -> Pin :
-        - ALways use the parent element as a trigger    
+        - ALways use the parent element as a trigger
+        - And make the pin true as we want it to be in use effect
+
+        
