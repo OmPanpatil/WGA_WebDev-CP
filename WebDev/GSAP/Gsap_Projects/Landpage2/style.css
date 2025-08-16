@@ -22,14 +22,14 @@ main{
     height: 100%;
     width: 100%;
     background-color: #151414;
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /* align-items: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* gap: ; */
+    /* justify-content: flex-start; */
+    gap: 0;
     /* padding: 0.1vw; */
-    position: relative;
+    /* position: relative; */
 }
 
 nav{
@@ -44,6 +44,7 @@ nav{
     justify-items: center;
     align-items: center;
     z-index: 999;
+    position: absolute;
 }
 
 #logo{
@@ -64,25 +65,27 @@ h3{
 
 
 #hero{
-    height: calc(100% - 14vh);
+    /* height: calc(100% - 14vh); */
     width: 100%;
-    padding: 2.5vw;
+    padding: 0.5vw;
     display: grid;
     align-content: flex-start;
     justify-content:center;
     position: relative;
+    flex-wrap: wrap;
+    flex-shrink: 0;
 }
 
 p{
-    font-size: 40vw;
+    font-size: 610px;
     /* height: fit-content; */
     /* font-size: 35vw; */
     /* font-size: 40vw; */
     /* height: fit-content; */
     color: #F3C77C;
-    font-weight: 1000;
-    letter-spacing: -2.5vw;
-    background-color: red;
+    font-weight: 900;
+    letter-spacing: -3.5vw;
+    /* background-color: red; */
     /* /* position: absolute; */
     top: 0%;
     /* left: 5%; */
