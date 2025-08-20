@@ -1,0 +1,51 @@
+## Understanding web 
+# Three types of web : 
+    web.1 : HTML and css exists only in 1990  (Read only web)
+    web-2 : JS introduced with the html, css and now the user can experience the interactions. (User created content possible)
+    web-3 : Decentrailzed, built with the people and no mediator in between, like Dapps, smart contracts.
+
+# Basics of computer communication and data transmission :
+    -> Inside every Packet it has two things as head and payload(message).
+    -> Data goes in the form of electromagnetic waves to the nearest tower or internet service provider
+    -> Head for the message destination and the payload what the message is it's all the packet in the form of Data is sent
+    -> Uses TCP/ IP Protocol
+
+## Two types of communication :
+    1. Wired connection :
+        -> 
+    2. Wireless connection :
+
+## Domain name, Ip addresses, Mac addresses, and routing :
+    -> Internet : Data flow
+    -> IP addresses : IPV4 and IPV6 (new type) => Identity of the user in digital world. Devices don't have an ip addresses. But, when we connect the device to the internet then the ISP(Internet service provider) will provide ip address. And when we off the mobile data or data wifi we lost our ip.
+    At a time only one ip is given to a person. And it can be switched to the another person when the first person off the data.
+    -> This protocol also known as DHCP [DHCP, or Dynamic Host Configuration Protocol, is a network protocol that automates the assignment of IP addresses and other network configuration parameters to devices on a network]
+
+    -> Mac address : It is given to a device address. And it gives the identity of the local area network. Permanent hardware id
+
+    -> Domain name : Human friendly name mapped to IP address via DNS.
+                     - Converts a domain into IP
+
+    -> Routing : Routers and gateway direct traffics across networks.
+
+## Client-Server Architecture :
+    1. What is a client : A users device. Request data from a server. 
+    2. What is a server : A powerful computer that stores websites, APIs or databases. Listens for request and send responses.
+    Example: I am visiting Youtube -> Client sends a request -> Youtube Server responds with a video
+
+## HTTP request and response :  
+    How it works :
+        -> Client (from browser) sends a response for ex: APPLE 
+        -> Server process the response
+        -> Server sends a responses with data.
+        -> Client displays the content on the screen.
+
+
+## Internet Protocol, HTTP/HTTPs and dev setup :
+
+    Internet was made by group of communities to make some protocols that rules banaye gaye taaki internet par jou bhi wou saare companies , os , networks, isp sab ke liye same page par ho, aisa na ho ki koi cheej kisi ke liye chal rahi hai aur kisse ke liye nahi chal rahi
+    -> Every different company would like to have there own versions of internet,but that could have been problematic, and that's why the communtities decided not to have this type of internet but a common and universal rules which everybody needs to follows.
+     
+
+    -> A person aman and delhi server machine 
+    -> Aman sends a request and to the server delhi
