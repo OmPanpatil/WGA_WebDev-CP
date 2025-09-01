@@ -353,4 +353,10 @@ Math Functions :
 
 
 Q. Compound interest ✅
+Q. Generate OTP ✅
+Q. Area of triangle by Heron's Formula ✅
+Q. Circumference of a circle ✅
 
+Q. Accept two numbers and print the greatest number between them. ✅
+Q. Accept an integer and check whether it's an even number or odd ✅
+Q. Accept three numbers and print the greatest among them ✅
