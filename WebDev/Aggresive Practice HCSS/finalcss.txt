@@ -79,3 +79,33 @@ Media Queries
 
 
 box=div (jaha bhi ek sae jyada elements dikhe waha div aur jaha bhi rectangle dikhe waha div hai. Div ko width and height dijiye css mae)
+
+Units :
+
+1.PX : 
+2. % : According to the parent screen  (Parent dimension)
+3. rem : (use for font size ) 1rem = 16px, 2rem = 32px,... (root element [html] font-size) 
+4. em : depends upon parent font-size and as per that we can change the value (Parent element FOnt size )
+5. vw,vh : whitescreen (device)
+
+@mediaQueries : Technique is mobile first approach
+
+1. min-width : screen minium width must be over 600px then change the content
+@media (min-width:600px){...} 
+2. max-width : screen maxium width if it goes minimum then it changes
+
+-0-Break points : mobile - Tablet - Desktop
+
+
+768px => Tablet
+1024px => Desktop
+1200+ => wide screen
+
+display : 
+1. flex : flex shrink, wrap, grow (cover full parent)
+-> flex only works in one dimension at a time like horizontal and vertical.
+
+2. Grid : It works in both dimension at a time like horizontal and vertical
+
+
+1080px for laptop

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+/* .parent{
+    height: 1000px;
+    width: 1000px;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 100px 150px 300px 100px; */
+    /* grid-template-columns: 25% 25% 25% 25%; */
+    /* grid-template-rows: 100px 200px; */
+/* } */
+
+/* .child{
+    height: 200px;
+    background-color: lightcoral;
+    border: 1px solid black;
+} */
+
+.parent{
+    height: 300px;
+    width: 300px;
+    background-color: wheat;
+    display: grid;
+    /* grid-template-areas: 
+     "a a ."
+     "a a ."
+     ". b c"
+    ; */
+    /* grid-template-columns: repeat(3,100px); */
+    grid-template-columns: repeat(3,1fr);       
+    /* 1 fr = fractions in equal parts */
+}
+
+.child{
+    background-color: lightcoral;
+    border: 1px solid black;
+    height: 100px;
+}
+
+.child-a{
+    /* grid-area: a; */
+    background-color: lightblue;
+}
+
+.child-b{
+    /* grid-area: b; */
+    background-color: yellow;
+}
+
+.child-c{
+    /* grid-area: c; */
+    background-color: orange;
+}
